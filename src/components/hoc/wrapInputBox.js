@@ -4,6 +4,7 @@ import { compose, withState, withHandlers } from 'recompose';
 export default compose(
     withState('value', 'setValue', props => {
         console.log('got props', props);
+        console.log("hello world")
         return props.value || ''
     }),
     withHandlers({
