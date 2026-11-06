@@ -8,7 +8,7 @@ export function getAll() {
     return [
         {
             id: 1,
-            text: 'Practicing Jenkins',
+            text: 'Practicing Jenkins with GCP',
             completed: false
         },
         {
