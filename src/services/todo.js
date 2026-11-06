@@ -8,7 +8,7 @@ export function getAll() {
     return [
         {
             id: 1,
-            text: 'Practicing Jenkins with GCP',
+            text: 'Practicing Jenkins with GCP via AWS VM',
             completed: false
         },
         {
